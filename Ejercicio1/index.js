@@ -2,7 +2,7 @@
 // altura 13 cm
 
 const volumen = 16 * 23 * 13;
-console.log('volumen', volumen + 'cm3');
+console.log('volumen', volumen + ' cm3 ');
 
 // A = al + 2ab
 const areaLateral = 23*13;
