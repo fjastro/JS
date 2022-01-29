@@ -10,5 +10,5 @@ console.log(persona.day);
 
 
 //cumpleaños
-const cumpleaños = ("Mi cumpleaños es el" + persona.day);
+const cumpleaños = ("Mi cumpleaños es el" + persona.day +  "de" + persona.month);
 console.log(cumpleaños);
