@@ -6,9 +6,14 @@ const numero2 = 8;
 if (numero1<=numero2) {
     alert (numero1 + " no es mayor que " + numero2)
 };
-console.log('5 no es mayor que 8')
+console.log('5 no es mayor que 8');
 
 
-if (numero1-6) {
-    alert (numero1 + " es negativo o distinto de cero ")
+if (numero2>0) {
+    alert (numero2 + " es positivo ")
 };
+console.log(numero2 + " es positivo ");
+
+
+
+
