@@ -8,13 +8,11 @@ const users = [
 
 
 const userpremium = users
-    .filter(function(user){
-        return user.premium == true
-    });
+.filter(function(user){
+    return user.premium == true
+});
 
-if (userpremium.premium == defined) {
-    console.log(userpremium, 'premium');
-};
+console.log("Estos son los premium"[userpremium]);
 
 
 const nopremium = users
