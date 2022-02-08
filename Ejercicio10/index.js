@@ -8,6 +8,7 @@ const pares = number.filter(function(numero){
 
 //se pinta en consola el resultado
 console.log('pares', pares);
+//resultado  [20, 562, 258, 254]
 
 //se usa el método filter para filtrar los números impares del Array
 const impares = number.filter(function(numero){
@@ -16,6 +17,7 @@ const impares = number.filter(function(numero){
 
 //se pinta en consola el resultado
 console.log('impares', impares);
+// resultado [253, 8575, 1, 1233, 25, 27, 7485, 2683]
 
 
 //simplificación de la función utilizando las funciones flecha
