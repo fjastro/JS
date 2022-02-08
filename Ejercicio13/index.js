@@ -1,3 +1,5 @@
+//Array de objeto
+
 const users = [
     {username: 'ppc90' , age: 30, premium: false},
     {username: 'lu65' , age: 24, premium: false},
@@ -8,16 +10,17 @@ const users = [
 
 
 
+//se filtran los usuarios que son premium
+const userPremium = users.filter(user => user.premium === true);
+//se pinta en consola la frase "es premium" para cada usuario con esta categoría
+userPremium.forEach(u => console.log(`${u.username} es premium`));
 
-const userpremium = users
-    .filter(function(user){
-        return user.premium == true
-    });
 
+//se filtran los usuarios que no son premium
+const Nopremium = users.filter(user => user.premium === false);
+//se pinta en consola el array de los que no son premium
+console.log(Nopremium);
 
-const mostrarMensaje = premium
-if (user = true) {
-    alert ("premium")
-};
-    
-console.log(mostrarMensaje)
+//se podría añadir una frase también para los usuarios No  premium
+Nopremium.forEach(u => console.log(`${u.username} no es premium`));
+
