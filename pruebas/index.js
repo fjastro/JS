@@ -7,12 +7,9 @@ const users = [
 ];
 
 
-const userpremium = users
-.filter(function(user){
-    return user.premium == true
-});
+const userpremium = users.filter(user => user.premium === true)
+userpremium.forEach(u => console.log(`${u.username} es premium`))
 
-console.log("Estos son los premium"[userpremium]);
 
 
 const nopremium = users
